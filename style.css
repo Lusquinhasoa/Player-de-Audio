@@ -1,0 +1,72 @@
+img{
+    width: 300px;
+    height: 300px;
+}
+body, html{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+    background-color: #333;
+}
+.descrição{
+    width: 300px;
+}
+h2{
+    margin-bottom: 5px;
+}
+.duração{
+    width: 300px;
+    margin-top: 25px;
+}
+.barrinha{
+    display: flex;
+    height: 300px;
+    height: 6px;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid white;
+}
+progress{
+    background-color: black;
+    height: 6px;
+    width: 40%;
+}
+.ponto{
+    background-color: wheat;
+    border-radius: 50%;
+    margin-left: -2px;
+    width: 20px;
+    height: 20px;
+}
+.tempo{
+    justify-content: space-between;
+    display: flex;
+    width: 300px;
+}
+.botao-play{
+    font-size: 50px;
+}
+.botao-pause{
+    font-size: 50px;
+}
+.seta{
+    font-size: 40px;
+}
+.botao-pause{
+    display: none;
+}
+.botões{
+    cursor: pointer;
+    width: 300px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 13px;
+}
