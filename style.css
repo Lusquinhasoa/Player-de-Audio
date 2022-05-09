@@ -36,7 +36,7 @@ h2{
 progress{
     background-color: black;
     height: 6px;
-    width: 40%;
+    width: 0;
 }
 .ponto{
     background-color: wheat;
@@ -58,6 +58,7 @@ progress{
 }
 .seta{
     font-size: 40px;
+    cursor: pointer;
 }
 .botao-pause{
     display: none;
